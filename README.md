@@ -12,7 +12,7 @@ Install docker and start next image:
  
  apt-get update && apt-get install wget -y
  cd /storage/
- wget https://raw.githubusercontent.com/uno-labs/UnoLabsBuild/dev/build_all.sh
+ wget https://raw.githubusercontent.com/uno-labs/UnoLabsBuild/master/build_all.sh
  chmod +x ./build_all.sh
  ./build_all.sh
  
