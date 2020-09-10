@@ -9,6 +9,7 @@ node_js:
 sudo: required
 
 before_install:
+  - wget -qO - https://apt.kitware.com/keys/kitware-archive-latest.asc | sudo apt-key add -
   - sudo apt-add-repository 'deb https://apt.kitware.com/ubuntu/ xenial main' -y
   - sudo apt update
   - sudo apt install cmake -y
