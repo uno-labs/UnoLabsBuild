@@ -9,7 +9,7 @@ node_js:
 sudo: required
 
 before_install:
-  - sudo add-apt-repository ppa:savoury1/build-tools -y
+  - sudo apt-add-repository 'deb https://apt.kitware.com/ubuntu/ xenial main' -y
   - sudo apt update
   - sudo apt install cmake -y
 
