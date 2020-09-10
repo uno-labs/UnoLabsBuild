@@ -1,0 +1,25 @@
+[submodule "vendor/emsdk"]
+	path = vendor/emsdk
+	url = https://github.com/emscripten-core/emsdk.git
+[submodule "build/inc/jthread"]
+	path = build/inc/jthread
+	url = https://github.com/josuttis/jthread.git
+[submodule "build/src/GpCore2"]
+	path = build/src/GpCore2
+	url = https://github.com/ITBear/GpCore2.git
+	branch = master
+[submodule "build/src/utf8proc"]
+	path = build/src/utf8proc
+	url = https://github.com/ITBear/utf8proc.git
+[submodule "build/src/libsodium"]
+	path = build/src/libsodium
+	url = https://github.com/jedisct1/libsodium.git
+[submodule "build/src/GpCryptoCore"]
+	path = build/src/GpCryptoCore
+	url = https://github.com/ITBear/GpCryptoCore.git
+[submodule "build/src/UnoSemuxLightCore"]
+	path = build/src/UnoSemuxLightCore
+	url = https://github.com/uno-labs/UnoSemuxLightCore.git
+[submodule "build/src/UnoSemuxLightCoreWasm"]
+	path = build/src/UnoSemuxLightCoreWasm
+	url = https://github.com/uno-labs/UnoSemuxLightCoreWasm.git
