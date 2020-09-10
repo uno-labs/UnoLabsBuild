@@ -15,4 +15,4 @@ before_install:
   - docker run -dit --name emscripten -v $(pwd):/src trzeci/emscripten:sdk-incoming-64bit bash
 
 script:
-  - docker exec -it emscropten ./build_wasm
+  - docker exec -it emscripten ./build_wasm
