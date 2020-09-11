@@ -1,4 +1,4 @@
 build
 node_modules
-mocha/package*.json
+mocha/package-lock*.json
 mocha/UnoSemuxLightCoreWasm.*
