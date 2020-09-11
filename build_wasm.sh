@@ -40,3 +40,6 @@ cd $BUILD_PATH/src/UnoSemuxLightCoreWasm
 sed -i -e 's/cmake_minimum_required(VERSION 3.16)/cmake_minimum_required(VERSION 3.13.4)/g' ./CMakeLists.txt
 [ ! -f "cmake_install.cmake" ] && emcmake cmake . -DBUILD_RELEASE_WASM32=ON
 emmake make
+
+cd $ROOT/mocha
+./test.sh
